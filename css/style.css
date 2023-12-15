@@ -1177,6 +1177,12 @@ form input[type="submit"]:focus {
   border-radius: 8px;
 }
 
+@media (max-width: 600px) {
+  .review {
+    width: 350px; /* Increase border size for smaller screens */
+  }
+}
+
 .review img {
   max-width: 50px;
   border-radius: 50%;
